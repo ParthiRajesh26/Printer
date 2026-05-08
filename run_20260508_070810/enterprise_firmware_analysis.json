@@ -1,0 +1,31 @@
+{
+  "enterprise_summary": {
+    "run_timestamp": "2026-05-08T07:08:04.129772Z",
+    "total_logs_analyzed": 5000,
+    "total_critical": 4485,
+    "total_stalled": 191,
+    "total_degraded": 294,
+    "total_healthy": 30,
+    "total_corrupted": 0,
+    "fleet_failure_rate": "89.70%",
+    "firmware_team_insights": {
+      "top_failing_firmware_versions": {
+        "4.9.2": 1649,
+        "5.1.0": 1486,
+        "6.0.1-wja": 1350
+      },
+      "top_failing_printer_models": {
+        "HP-LJ-M607": 1731,
+        "HP-Indus-9000": 1486,
+        "HP-WJA-5000": 1268
+      },
+      "top_failing_processes": {
+        "OutputStackerMonitor": 677,
+        "ColorManagementEngine": 611,
+        "WatchdogDaemon": 587,
+        "JobSpoolReceiver": 535,
+        "PaperFeedController": 452
+      }
+    }
+  }
+}
